@@ -38,7 +38,6 @@ return [
             'options' => [
                 'cluster' => 'us2',
                 'useTLS' => true,
-                'encrypted' => true,
             ],
         ],
 
