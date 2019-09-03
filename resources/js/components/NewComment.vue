@@ -13,20 +13,20 @@
                 <div class="field has-margin-top">
                     <label class="label">Your comment</label>
                     <div class="control">
-                        <textarea
-                            style="height: 100px;"
-                            name="comment"
-                            class="input is-medium" autocomplete="true" v-model="comment.content"
-                            placeholder="lorem ipsum"></textarea>
+                            <textarea
+                                style="height:100px;"
+                                name="comment"
+                                class="input is-medium" autocomplete="true" v-model="comment.content"
+                                placeholder="lorem ipsum"></textarea>
                     </div>
 
                 </div>
                 <div class="control has-margin-top">
                     <button style="background-color: #47b784" :class="{'is-loading': submit}"
-                        class="button has-shadow is-medium has-text-white"
-                        :disabled="!isValid"
-                        @click.prevent="postComment"
-                        type="submit">Submit
+                            class="button has-shadow is-medium has-text-white"
+                            :disabled="!isValid"
+                            @click.prevent="postComment"
+                            type="submit"> Submit
                     </button>
                 </div>
             </div>

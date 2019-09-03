@@ -1,13 +1,10 @@
 <template>
-    <li class="comment-wrapper animate slideInLeft">
+    <li class="comment-wrapper animate slideInLeft ">
         <div class="profile">
-            <img :src="avatar" alt="">
-        </div>
+            <img :src="avatar" alt=""></div>
         <div class="msg has-shadow">
-            <div class="msg-body">
-                <p>{{comment.author}}<span class="date">{{posted_at}}</span></p>
-                <p class="content">{{comment.content}}</p>
-            </div>
+            <div class="msg-body"><p class="name">{{comment.author}} <span class="date">{{posted_at}}</span></p>
+                <p class="content">{{comment.content}}</p></div>
         </div>
     </li>
 </template>
