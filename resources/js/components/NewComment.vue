@@ -14,7 +14,7 @@
                     <label class="label">Your comment</label>
                     <div class="control">
                             <textarea
-                                style="height:100px;"
+                                style="height:100px; resize: none"
                                 name="comment"
                                 class="input is-medium" autocomplete="true" v-model="comment.content"
                                 placeholder="lorem ipsum"></textarea>
