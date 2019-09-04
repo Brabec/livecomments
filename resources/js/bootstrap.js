@@ -53,7 +53,19 @@ window.Pusher = require('pusher-js');
 
 // window.Echo = new Echo({
 //     broadcaster: 'pusher',
-//     key: process.env.MIX_PUSHER_APP_KEY,
-//     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-//     encrypted: true
+//     key: 'fbfe011d61adaad06325',
+//     secret: 'd3a79be581efa9207174',
+//     cluster: 'us2',
+//     forceTLS: true,
+    // encrypted: false
+// });
+
+// var channel = Echo.channel('my-channel');
+// channel.listen('my-event', function(data) {
+//     alert(JSON.stringify(data));
+// });
+
+// var channel = Echo.channel('comment-channel');
+// channel.listen('newComment', function(data) {
+//     alert(JSON.stringify(data));
 // });
